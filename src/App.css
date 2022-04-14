@@ -27,17 +27,15 @@
 .App-link {
   color: #61dafb;
 }
-.container {
+.country-content {
   border: 2px solid tomato;
-  width: 60%;
+  width: 30%;
   margin: 2rem auto;
   border-radius: 0.5rem;
   background-color: #ddd;
   padding: 1rem;
 }
-.container p {
-  font-size: 1.2rem;
-}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
