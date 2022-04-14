@@ -1,0 +1,18 @@
+nav.navigation {
+  height: 100px;
+  background: rgb(42, 148, 42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+.navigation a:hover {
+  color: orange;
+}
