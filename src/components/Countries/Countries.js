@@ -16,12 +16,8 @@ const Countries = () => {
         <div className='container'>
             
             {
-                countries.map(country => <Country 
-                    name={country.name} 
-                    flags={country.flags.png}
-                    capital={country.capital}
-                    region={country.region}
-                    population={country.population}
+                countries.map(country => <Country
+                    country={country} 
                     ></Country>)
             }
 
